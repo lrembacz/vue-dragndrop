@@ -18,8 +18,8 @@
   "author": "Łukasz Rembacz",
   "license": "MIT",
   "dependencies": {
-    "@dragndrop/draggable": "0.1.4",
-    "@dragndrop/dropzone": "0.1.4"
+    "@dragndrop/vue-draggable": "0.0.1",
+    "@dragndrop/vue-dropzone": "0.0.1"
   },
   "publishConfig": {
     "access": "public"

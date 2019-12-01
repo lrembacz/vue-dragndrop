@@ -41,13 +41,13 @@ Vue.use(VueDraggable);
 
 ```vue
 <template>
-    <Draggable 
+    <VueDraggable 
         :data="dataTransfer"
         :avatar="avatar"
         @onDrag="onDrag"
     >
         <div>Example element</div>
-    </Draggable>
+    </VueDraggable>
 </template>
 <script>
     export default {

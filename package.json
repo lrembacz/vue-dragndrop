@@ -1,14 +1,14 @@
 {
   "name": "vue-dragndrop",
-  "private": true,
   "description": "Drag and Drop Components For VueJS",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-lib-draggable": "vue-cli-service build --target lib --name vue-draggable --no-clean ./packages/draggable/src/index.ts",
     "build-lib-dropzone": "vue-cli-service build --target lib --name vue-dropzone --no-clean ./packages/dropzone/src/index.ts",
     "build-lib-dragndrop": "vue-cli-service build --target lib --name vue-dragndrop --no-clean ./packages/dragndrop/src/index.ts",
-    "build-lib": "npm run build-lib-draggable & npm run build-lib-dropzone",
+    "build-lib": "npm run build-lib-draggable & npm run build-lib-dropzone & npm run build-lib-dragndrop",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

@@ -23,9 +23,9 @@ Component has its declarations (*.d.ts) for Typescript available.
 ### Registration
 
 ```javascript
-import {Dropzone} from '@dragndrop/vue-dropzone';
+import {VueDropzone} from '@dragndrop/vue-dropzone';
 
-Vue.component('Dropzone', Dropzone);
+Vue.component('VueDropzone', VueDropzone);
 ```
 
 ### Registration as plugin
@@ -41,12 +41,12 @@ Vue.use(VueDropzone);
 
 ```vue
 <template>
-    <Dropzone 
+    <VueDropzone 
         :acceptor="acceptor"
         @onDrop="onDrop"
     >
         <div>Dropzone for draggable element</div>
-    </Dropzone>
+    </VueDropzone>
 </template>
 <script>
     export default {

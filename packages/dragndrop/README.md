@@ -20,10 +20,10 @@ import Vue from 'vue';
 import VueDragAndDrop from '@dragndrop/vue-dragndrop';
 Vue.use(VueDragAndDrop);
 // OR
-import {Draggable, Dropzone} from '@dragndrop/vue-dragndrop';
+import {VueDraggable, VueDropzone} from '@dragndrop/vue-dragndrop';
 
-Vue.component('Draggable', Draggable);
-Vue.component('Dropzone', Dropzone);
+Vue.component('VueDraggable', VueDraggable);
+Vue.component('VueDropzone', VueDropzone);
 
 ```
 

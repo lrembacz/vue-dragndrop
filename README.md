@@ -37,9 +37,9 @@ Vue.use(VueDragAndDrop);
 ### Local registration
 
 ```javascript
-import {Draggable, Dropzone} from '@dragndrop/vue-dragndrop';
+import {VueDraggable, VueDropzone} from '@dragndrop/vue-dragndrop';
 
-Vue.component('Draggable', Draggable);
-Vue.component('Dropzone', Dropzone);
+Vue.component('VueDraggable', VueDraggable);
+Vue.component('VueDropzone', VueDropzone);
 
 ```
