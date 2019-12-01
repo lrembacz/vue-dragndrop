@@ -1,17 +1,20 @@
 {
   "name": "@dragndrop/vue-dropzone",
   "version": "0.0.1",
-  "description": "",
+  "description": "Dropzone component for VueJS",
   "main": "./dist/vue-dropzone.common.js",
   "unpkg": "./dist/vue-dropzone.umd.min.js",
+  "types": "src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/lrembacz/vue-dragndrop.git",
     "directory": "packages/dropzone"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": [
+    "vue-dropzone",
+    "vue drpzone",
+    "dropzone"
+  ],
   "author": "Łukasz Rembacz",
   "license": "MIT",
   "dependencies": {

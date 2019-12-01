@@ -1,17 +1,20 @@
 {
   "name": "@dragndrop/vue-dragndrop",
   "version": "0.0.1",
-  "description": "",
+  "description": "Drag and drop component for VueJS",
   "main": "./dist/vue-dragndrop.common.js",
   "unpkg": "./dist/vue-dragndrop.umd.min.js",
+  "types": "src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/lrembacz/vue-dragndrop.git",
     "directory": "packages/dragndrop"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": [
+    "vue-dragndrop",
+    "vue drag and drop",
+    "dragndrop"
+  ],
   "author": "Łukasz Rembacz",
   "license": "MIT",
   "dependencies": {
