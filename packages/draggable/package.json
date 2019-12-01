@@ -1,0 +1,24 @@
+{
+  "name": "@dragndrop/vue-draggable",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/vue-draggable.common.js",
+  "unpkg": "./dist/vue-draggable.umd.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lrembacz/vue-dragndrop.git",
+    "directory": "packages/draggable"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Łukasz Rembacz",
+  "license": "MIT",
+  "dependencies": {
+    "@dragndrop/draggable": "0.1.4",
+    "@material/dom": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
