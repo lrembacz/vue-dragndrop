@@ -23,9 +23,9 @@ Component has its declarations (*.d.ts) for Typescript available.
 ### Registration
 
 ```javascript
-import {Draggable} from '@dragndrop/vue-draggable';
+import {VueDraggable} from '@dragndrop/vue-draggable';
 
-Vue.component('Draggable', Draggable);
+Vue.component('VueDraggable', VueDraggable);
 ```
 
 ### Registration as plugin
