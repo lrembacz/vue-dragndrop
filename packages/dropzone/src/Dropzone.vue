@@ -30,6 +30,9 @@
         @Prop({
             default: DropzoneFoundation.cssClasses.OVER_CLASS,
         }) public overClass: string;
+        @Prop({
+            default: false,
+        }) public allowOnChild: boolean;
 
         @Watch('acceptor')
         onAcceptorChanged(acceptor) {
@@ -51,11 +54,17 @@
             this.foundation_.invalidClass = invalidClass;
         }
 
+        @Watch('allowOnChild')
+        onAllowOnChildChanged(allowOnChild) {
+            this.foundation_.allowOnChild = allowOnChild;
+        }
+
         initAttributes() {
             this.foundation_.acceptor = this.acceptor;
             this.foundation_.exact = this.exact;
             this.foundation_.overClass = this.overClass;
             this.foundation_.invalidClass = this.invalidClass;
+            this.foundation_.allowOnChild = this.allowOnChild;
         }
 
         mounted() {
