@@ -144,9 +144,7 @@
                 notifyTarget: (eventTarget: EventTarget, eventName: string, data: any, options?: any) => {
                     const event = new MouseEvent(eventName, options);
                     (event as any).data = data;
-                    if (eventTarget.hasOwnProperty('__dropzone__')) {
-                        (eventTarget as any).__dropzone__.$emit(eventName, event);
-                    }
+                    eventTarget.dispatchEvent(event);
                 },
                 scroll: (left: number, top: number, behavior: "auto" | "smooth") => window.scroll({left: left, top: top, behavior: 'smooth'}),
                 deregisterDocumentInteractionHandler: (evtType: any, handler: any, passive?: boolean) =>

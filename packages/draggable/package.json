@@ -1,6 +1,6 @@
 {
   "name": "@dragndrop/vue-draggable",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Draggable component for VueJS",
   "main": "./dist/vue-draggable.common.js",
   "unpkg": "./dist/vue-draggable.umd.min.js",

@@ -6,6 +6,7 @@
         :key="index"
         :data="{id: item.id}"
         @onDrop="(e) => onDrop(item.id, e)"
+        :avatar="avatar"
       >
         <div class="sortable">{{item.name}}</div>
       </Item>

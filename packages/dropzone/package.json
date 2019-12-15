@@ -1,6 +1,6 @@
 {
   "name": "@dragndrop/vue-dropzone",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dropzone component for VueJS",
   "main": "./dist/vue-dropzone.common.js",
   "unpkg": "./dist/vue-dropzone.umd.min.js",

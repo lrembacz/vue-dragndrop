@@ -7,6 +7,7 @@
     import {DropzoneFoundation} from '@dragndrop/dropzone/foundation';
     import {DropzoneAdapter} from '@dragndrop/dropzone/adapter';
     import '@dragndrop/dropzone/types';
+    import '@dragndrop/draggable/utils/mouse-event.js';
 
     @Component
     export default class Dropzone extends Vue {
@@ -129,11 +130,11 @@
         }
 
         public listen(eventType: string, handler: any){
-            this.$on(eventType, handler);
+            this.$el.addEventListener(eventType, handler);
         }
 
         public unlisten(eventType: string, handler: any){
-            this.$off(eventType, handler);
+            this.$el.removeEventListener(eventType, handler);
         }
 
         public emit(eventType: string, detail: any) {
