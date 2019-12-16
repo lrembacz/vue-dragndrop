@@ -1,6 +1,6 @@
 {
   "name": "@dragndrop/vue-dropzone",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Dropzone component for VueJS",
   "main": "./dist/vue-dropzone.common.js",
   "unpkg": "./dist/vue-dropzone.umd.min.js",
@@ -18,8 +18,8 @@
   "author": "Łukasz Rembacz",
   "license": "MIT",
   "dependencies": {
-    "@dragndrop/draggable": "0.1.5",
-    "@dragndrop/dropzone": "0.1.5",
+    "@dragndrop/draggable": "0.1.6",
+    "@dragndrop/dropzone": "0.1.6",
     "@material/dom": "^4.0.0"
   },
   "publishConfig": {

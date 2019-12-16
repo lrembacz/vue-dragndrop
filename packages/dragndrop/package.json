@@ -1,6 +1,6 @@
 {
   "name": "@dragndrop/vue-dragndrop",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Drag and drop component for VueJS",
   "main": "./dist/vue-dragndrop.common.js",
   "unpkg": "./dist/vue-dragndrop.umd.min.js",
@@ -18,8 +18,8 @@
   "author": "Łukasz Rembacz",
   "license": "MIT",
   "dependencies": {
-    "@dragndrop/vue-draggable": "0.0.3",
-    "@dragndrop/vue-dropzone": "0.0.3"
+    "@dragndrop/vue-draggable": "0.0.4",
+    "@dragndrop/vue-dropzone": "0.0.4"
   },
   "publishConfig": {
     "access": "public"

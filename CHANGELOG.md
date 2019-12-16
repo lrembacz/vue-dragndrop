@@ -1,5 +1,7 @@
 # Change Log
 
+# [0.0.4] Update bugged dragndrop package
+
 # [0.0.3] Revert `MouseEvent` dispatching instead of Vue event
 
 # [0.0.2] Add `allowOnChild` to Dropzone component

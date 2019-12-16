@@ -1,6 +1,6 @@
 {
   "name": "@dragndrop/vue-draggable",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Draggable component for VueJS",
   "main": "./dist/vue-draggable.common.js",
   "unpkg": "./dist/vue-draggable.umd.min.js",
@@ -18,7 +18,7 @@
   "author": "Łukasz Rembacz",
   "license": "MIT",
   "dependencies": {
-    "@dragndrop/draggable": "0.1.5",
+    "@dragndrop/draggable": "0.1.6",
     "@material/dom": "^4.0.0"
   },
   "publishConfig": {

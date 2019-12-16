@@ -23,7 +23,7 @@
             default: null,
         }) public acceptor: Acceptor | null;
         @Prop({
-            default: true,
+            default: false,
         }) public exact: boolean;
         @Prop({
             default: DropzoneFoundation.cssClasses.INVALID_CLASS,
@@ -126,7 +126,7 @@
         }
 
         render() {
-            return (this.$slots !== undefined) ? this.$slots.default[0] : null;
+            return (this.$slots !== undefined) ? this.$slots.default.length > 0 ? this.$slots.default[0] : null : null;
         }
 
         public listen(eventType: string, handler: any){
